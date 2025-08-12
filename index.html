@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Dr. Ayodele Adessina – Researcher</title>
   <style>
     html, body {
       height: 100%;
       margin: 0;
       padding: 0;
-      background: none;
-    }
-    body {
       font-family: Arial, sans-serif;
-      color: #333;
-      position: relative;
+      color: #fff;
+      background: #858282;
+      background-image: url('images/equations-left.png'), url('images/equations-right.png');
+      background-position: left top, right top;
+      background-repeat: repeat-y, repeat-y;
+      background-size: 100px auto, 100px auto;
     }
+
     .container {
       max-width: 900px;
       margin: auto;
       padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 8px;
       position: relative;
       z-index: 1;
     }
@@ -32,7 +36,6 @@
     }
     .header-text {
       flex: 1;
-      text-align: center;
     }
     .header-photo {
       width: 120px;
@@ -40,52 +43,61 @@
       border-radius: 8px;
       border: 2px solid #ccc;
     }
+    h1 {
+      color: #4dc3ff;
+      margin-bottom: 10px;
+    }
     nav a {
       margin: 0 10px;
       text-decoration: none;
-      color: #004080;
+      color: #aad4ff;
     }
     nav a:hover {
       text-decoration: underline;
-    }
-    h1 {
-      color: #00264d;
-      margin-bottom: 5px;
     }
     section {
       margin-bottom: 40px;
       padding: 15px;
       border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.05);
     }
     .image-row {
       display: flex;
+      flex-wrap: wrap;
       gap: 10px;
       justify-content: center;
-      flex-wrap: wrap;
     }
     .image-row img {
       max-width: 30%;
       height: auto;
       border: 1px solid #ccc;
       padding: 5px;
-      background: #f9f9f9;
+      background-color: #fff;
     }
-    .image-row img.bg {
-      background-image: url('images/background.jpg');
+    .bg {
+      background-image: url('images/background1.jpg');
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
       padding: 20px;
     }
+    a {
+      color: #aad4ff;
+    }
   </style>
 </head>
+
 <body>
   <div class="container">
     <div class="header-container">
       <div class="header-text">
         <h1>Dr. Ayodele Adessina</h1>
-        <p>Researcher in Civil Engineering and Cementitious Materials</p>
-        <p><a href="mailto:jean-ayodele.adessina@cerema.fr">jean-ayodele.adessina@cerema.fr</a> | <a href="https://www.researchgate.net/profile/Ayodele-Adessina?ev=hdr_xprf">ResearchGate</a> | <a href="https://orcid.org/0009-0007-1258-1673">ORCID</a></p>
+        <p>Researcher, Civil Engineering</p>
+        <p>
+          <a href="mailto:jean-ayodele.adessina@cerema.fr">jean-ayodele.adessina@cerema.fr</a> |
+          <a href="https://www.researchgate.net/profile/Ayodele-Adessina?ev=hdr_xprf">ResearchGate</a> |
+          <a href="https://orcid.org/0009-0007-1258-1673">ORCID</a>
+        </p>
         <nav>
           <a href="#research">Research</a>
           <a href="#publications">Publications</a>
@@ -93,58 +105,70 @@
           <a href="#contact">Contact</a>
         </nav>
       </div>
-      <img src="profile.jpg" alt="Profile Photo" class="header-photo">
+      <img src="C:\Users\ayodele.adessina\Box\Dossier Personnel de Jean Ayodélé ADESSINA\1-DOSSIER RECHERCHE\33-PROFILS ET SITES WEB/profile.jpg" alt="Profile Photo" class="header-photo",width="300" 
     </div>
 
     <section id="research">
       <h2>Research Interests</h2>
-      <p align="justify">My research focuses on the behavior and performance of cementitious materials, with particular attention to low-carbon and blended systems. 
-        I combine experimental techniques such as thermogravimetric analysis, nano & micro-indentation, and mechanical testing to characterize hydration, strength, and durability. 
-        In parallel, I develop micromechanical models to predict the mechanical properties and evolution of microstructure over time. This multi-scale approach allows for a 
-        better understanding of how material composition and curing conditions influence macroscopic properties (chloride diffusion, permeability, strength development, basic creep...). 
-        The goal is to support the development of sustainable, high-performance concretes through a deeper scientific understanding of their behavior.</p>
+      <p align="justify">
+        My research focuses on the behavior and performance of cementitious materials, with particular attention to low-carbon and blended systems.
+        I combine experimental techniques such as thermogravimetric analysis, optical and scanning electron microscopy observations, nano and micro-indentation, and mechanical testing to characterize hydration,
+        strength, and durability of cementitious materials. In parallel, I develop theoretical models based on micromechanical concepts to predict the mechanical properties and the evolution of the microstructure over time.
+         This multi-scale approach allows for a better understanding of how material composition and curing conditions influence macroscopic
+        properties. The goal is to support the development of sustainable, high-performance concretes through a deeper scientific understanding of their behavior.
+      </p>
       <div class="image-row">
-        <img src="topview2.jpg" alt="Echantillon2", width="180" 
-        height="100" />
-        <img src="carto.jpg" alt="", width="280" 
-        height="100" />
-        <img src="rug3.jpg" alt="rug3", width="180" 
-        height="100" />
-        <img src="needle.jpg" alt="needle", width="160" 
-        height="50",class="bg" />
+        <img src="C:\Users\ayodele.adessina\Box\Dossier Personnel de Jean Ayodélé ADESSINA\1-DOSSIER RECHERCHE\33-PROFILS ET SITES WEB/topview2.jpg" alt="Experimental Setup 1", width="180" 
+        height="25" />
+        <img src="C:\Users\ayodele.adessina\Box\Dossier Personnel de Jean Ayodélé ADESSINA\1-DOSSIER RECHERCHE\33-PROFILS ET SITES WEB/rug3.jpg" alt="Experimental Setup 2", width="180" 
+        height="25" />
+        <img src="C:\Users\ayodele.adessina\Box\Dossier Personnel de Jean Ayodélé ADESSINA\1-DOSSIER RECHERCHE\33-PROFILS ET SITES WEB/needle.jpg" alt="Modeling Equation", width="160" 
+        height="25",class="bg" />
       </div>
     </section>
 
     <section id="publications">
       <h2>Recent Publications</h2>
+      
       <ul>
-        <li>Adessina, et al. (2025). Failure mechanism in recycled sand mortars and recycled aggregate concretes: Experimental and multiscale approaches. <em>Journal of Building Engineering (Volume 101)</em>.</li>
-        <li> A. B. Kouevidjin, A. Adessina, et al. (2024). Efficiency of the impressed cathodic protection (ICCP) in reinforced concrete. Experimental and numerical investigation.<em>Electrochimica (Volume 480)</em>.</li>
-        <li>Adessina, et al. (2023). Improvement of the compressive strength of recycled aggregate concretes and relative effects on durability properties. <em>Construction and Building Materials (Volume 384)</em>.</li>
+        <li>Adessina et al. (2025). *Failure mechanism in recycled sand mortars and recycled aggregate concretes: Experimental and multiscale approaches*. Journal of Building Engineering.</li>
+        <li>Adessina et al. (2023). *Improvement of the compressive strength of recycled aggregate concretes and relative effects on durability properties*. Construction and Building Materials.</li>
       </ul>
-      <p>Coming soon:</p>
+      <h2> Ongoing work </h2>
       <ul>
-        <li>Adessina et al. (2025). Strength development in mortars including recycled sand and ground granulated furnace slag: Experimental and micromechanical investigation. <em> Cement and Concrete Composites</em>.</li>
-        <li>Koffi Konde, Komi Amou, Ayodele Adessina, Amor Ben Fraj (2025). Study of some low-grade kaolinite clays as clinker substitute in limestone calcined clay cements.<em>Construction and Buiding Materials</em>.</li>
+        <li> Strength development of slag blended cement pastes</li>
+        <li> Pozzolanic properties of some low-grade kaolinite clays from Africa.</li>
       </ul>
+      <h2> Latest findings </h2>
+    </p>
+    <div class="image-row">
+      <img src="C:\Users\ayodele.adessina\Box\Dossier Personnel de Jean Ayodélé ADESSINA\1-DOSSIER RECHERCHE\33-PROFILS ET SITES WEB/Maillage.jpg" alt="Modeling Equation", width="350" 
+      height="25" />
+      <img src="C:\Users\ayodele.adessina\Box\Dossier Personnel de Jean Ayodélé ADESSINA\1-DOSSIER RECHERCHE\33-PROFILS ET SITES WEB/Deformation.png" alt="Experimental Setup 1", width="450" 
+      height="50" />
+      <img src="C:\Users\ayodele.adessina\Box\Dossier Personnel de Jean Ayodélé ADESSINA\1-DOSSIER RECHERCHE\33-PROFILS ET SITES WEB/Contrainte_p.png" alt="Experimental Setup 1", width="450" 
+      height="50" />
+    </div>
+
+
+
     </section>
 
     <section id="teaching">
       <h2>Teaching</h2>
-      <p>Courses taught include:</p>
       <ul>
-        <li>Heterogeneous Materials. <em>Physics Department, Université de Lomé (Togo)</em>.</li>
-        <li>Numerical Modeling in Physics. <em>Physics Department, Université de Lomé (Togo)</em>.</li>
-        <li>Introduction to Scientific Research. <em>ESITC, Paris (France)</em>.</li>
+        <li>Heterogeneous Materials – Physics Dept, Université de Lomé (Togo)</li>
+        <li>Numerical Modeling in Physics – Physics Dept, Université de Lomé (Togo)</li>
+        <li>Introduction to Scientific Research – ESITC, Paris (France)</li>
       </ul>
     </section>
 
     <section id="contact">
       <h2>Contact</h2>
       <p>
-        Unité Mixte de Recherche (Matériaux pour une Construction Durable)<br>
-        Cerema-Université Gustave Eiffel<br>
-        F-77171, Sourdun, France<br>
+        Unite Mixte de Recherche (Matériaux pour une Construction Durable)<br/>
+        Cerema – Université Gustave Eiffel<br/>
+        F-77171, Sourdun, France<br/>
         Email: <a href="mailto:jean-ayodele.adessina@cerema.fr">jean-ayodele.adessina@cerema.fr</a>
       </p>
     </section>
